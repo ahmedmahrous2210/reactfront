@@ -1,0 +1,19 @@
+.ant-modal-wrap.ant-modal-centered {
+    overflow: hidden;
+    z-index: 99999 !important;
+}
+.ant-modal-content {
+    background: #969a9cf7 !important;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+.ant-modal-body {
+    padding: 24px;
+    font-size: 14px;
+    line-height: 1.5715;
+    word-wrap: break-word;
+    overflow-y: scroll;
+    max-height: 400px !important;
+}

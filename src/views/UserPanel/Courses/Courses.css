@@ -1,0 +1,158 @@
+.mr-12{margin-right:12px;}
+.mb-12{margin-bottom:12px;}
+h1
+{
+	color:#fff;
+	margin:40px 0 60px 0;
+	font-weight:300;
+}
+.item-back-exa-list{
+    list-style-type:none;
+    padding:20px;
+    margin:0px auto;
+    text-align:center;
+}
+.item-back-exa-list>li>a{
+    line-height:32px;
+}
+
+.our-team-main
+{
+	width: 100%;
+    height: auto;
+    border-bottom: 5px #323233 solid;
+    background: #fff;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: 0.5s;
+    margin-bottom: 28px;
+    margin-top: -24px;
+
+    border: 1px solid #e0e0e0;
+    padding: 15px 0 10px 0;
+}
+
+
+.our-team-main img
+{
+	border-radius:50%;
+	margin-bottom:20px;
+	width: 90px;
+}
+.ant-collapse{
+    min-width:1138px;
+}
+
+.our-team-main h3
+{
+	font-size:20px;
+	font-weight:700;
+}
+
+.our-team-main p
+{
+	margin-bottom:0;
+}
+
+.team-back
+{
+	width:100%;
+	height:auto;
+	position:absolute;
+	top:0;
+	left:0;
+	padding:5px 15px 0 15px;
+	text-align:left;
+	background:#fff;
+	
+}
+
+.team-front
+{
+	width:100%;
+	height:auto;
+	position:relative;
+	z-index:10;
+	background:#fff;
+	padding:15px;
+	bottom:0px;
+	transition: all 0.5s ease;
+}
+
+.our-team-main:hover .team-front
+{
+	bottom:-200px;
+	transition: all 0.5s ease;
+}
+
+.our-team-main:hover
+{
+	border-color:#777;
+	transition:0.5s;
+}
+
+/*our-team-main*/
+
+
+
+
+/*modal code start*/
+.ant-modal.scheduleExamModal.modal-dialog.modal-xl {
+    width: 700px !important;
+    z-index: 1;
+}
+.ant-modal.scheduleExamModal.modal-dialog.modal-xl .ant-modal-content{
+    height: 515px !important;
+}
+.ant-modal.scheduleExamModal.modal-dialog.modal-xl .ant-modal-content .ant-modal-header {
+    display: block !important;
+    padding:5px !important;
+}
+.ant-modal.scheduleExamModal.modal-dialog.modal-xl .ant-modal-content .ant-modal-header .ant-modal-title{
+    line-height:27px !important;
+}
+.ant-modal.scheduleExamModal.modal-dialog.modal-xl .ant-modal-content .ant-modal-close .ant-modal-close-icon{
+    display: block !important; 
+}
+.ant-modal-wrap.ant-modal-centered {
+    overflow: hidden;
+}
+.ant-modal-title {
+    margin: 0;
+    color: #fff;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 22px;
+    word-wrap: break-word;
+    text-align: center;
+}
+.ant-modal-body{padding: 24px;
+    font-size: 14px;
+    line-height: 1.5715;
+    word-wrap: break-word;
+    overflow-y: scroll;
+    height:auto;
+    min-height: 400px;}
+.ant-modal-content:before {
+    content: "";
+    position: absolute;
+    left: -7px;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 15px;
+    /* background: url(https://www.fresherslive.com/mock-test/images/global-pass-patch4.png) repeat-y; */
+}
+.ant-modal-content {
+    background: #a1a1a0;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:#fff;
+}
+.ant-modal.scheduleExamModal.modal-dialog.modal-xl .ant-modal-content{
+    background: #9d9fa0 !important;
+}
+.ant-modal-header{background:transparent;}

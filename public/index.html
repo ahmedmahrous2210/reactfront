@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <title>B2B IBO Solution - BUSINESS MIDDLEWARE: IBO PLAYER, VIRGINIA PLAYER, ABEPlayer, KTN Player, BOBPlayer, IboxxPlayer, HushPlayer, AllPlayer, IBOSTB, IBOSOL, BOBProTv, FamilyPlayer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta
+      name="description"
+      content="B2B IBO SOLUTION panel for reseller adding user for  virginia player, bobplayer, iboiptv, abeplayertv"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8816496716506513"
+     crossorigin="anonymous"></script>
+     <style>
+       .rc-anchor-normal{
+        height: 70px !important;
+        width: 100% !important;
+       }
+        body{
+          background-image: url('main-2-bg.png') !important;
+          background-attachment:fixed;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .sbsi7l-0{
+          display: none !important;
+        }
+        .sbsi7l-0{
+          display: none !important;
+        }
+        .teligram-icon{
+          max-width: 40px;
+          bottom: 16px;
+          right: 16px;
+          opacity: 1;
+          transition: opacity 0.5s ease 0s;
+          box-sizing: border-box;
+          direction: ltr;
+          text-align: right;
+          position: fixed !important;
+          z-index: 16000160 !important;
+        }
+     </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>  
+    <span class="teligram-icon">
+      <a id="teligramLink"  target="_blank">
+        <img src="teligram.png" class="img-thumbnail img-responsive img-circle" style="max-width:52px" alt="teligram" />
+    </a>
+    </span>
+  </body>
+  <script>
+    var loggedSessionData = JSON.parse(localStorage.getItem('userData_'+localStorage.getItem('token')));
+    (function () {
+        setTimeout(() => { 
+          var options = {
+              whatsapp: '+'+localStorage.getItem('whatsAppNumber'), // WhatsApp number
+              call_to_action: "Message Us", // Call to action
+              position: "left", // Position may be 'right' or 'left'
+          };
+          var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+          var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+          s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+          var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+          var teligramId = document.getElementById("teligramLink");
+          teligramId.href = 'https://telegram.me/'+localStorage.getItem('teligramNumber');
+        }, 5000);
+      })();
+     
+  </script>
+  
+</html>
